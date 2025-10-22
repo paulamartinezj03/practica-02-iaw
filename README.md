@@ -108,3 +108,5 @@ mysql -u root < /var/www/html/phpmyadmin/sql/create_tables.sql
 mysql -u root <<< "DROP USER IF EXISTS $BD_USER@'%'"
 mysql -u root <<< "CREATE USER $BD_USER@'%' IDENTIFIED BY '$BD_PASS'"
 mysql -u root <<< "GRANT ALL PRIVILEGES ON $DB_DB.* TO $BD_USER@'%'"
+[!](/practica-02-iaw/images/installlampp2.png)
+[!](/practica-02-iaw/images/installtoolsp2.png)
