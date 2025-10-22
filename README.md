@@ -42,7 +42,7 @@ cp ../php/info.php /var/www/html
 ## Cambiamos el propietario y el grupo del directorio /var/www/html
 chown -R apache:apache /var/www/html
 
-## Configuración install_tools
+# Configuración install_tools
 #!/bin/bash
 
 #Configuramos el script para que se muestren los comandos
